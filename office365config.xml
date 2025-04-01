@@ -1,0 +1,15 @@
+<Configuration ID="b8394244-c2fe-4275-b60b-f3007fc3e758">
+  <Add OfficeClientEdition="64" Channel="Current">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="de-de" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OutlookForWindows" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="NEVARIS Bausoftware GmbH" />
+  </AppSettings>
+</Configuration>
